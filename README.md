@@ -25,12 +25,10 @@ Syntax highlighted code block
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
- <!DOCTYPE html>
  <html>
  <head>
 	    <!-- Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content=" A Sample website designed to test Genesys Cloud CX features"
 		
 		<!-- Stylesheets -->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -79,16 +77,7 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
 		<h4>We provide hosted and Cloud Solutions for UCaaS and CCaaS</h4>
 	</aside>
 	<footer>
-		<div class="left-footer">
-			<p>Something will go here.</p>
-		</div>
-		<div class="center-footer">
-			<p>Something will go in the center here.</p>
-		</div>
-		<div class="right-footer">
-			<p>Something on the right.</p>
-		</div>
-		<div class="copyright">
+			<div class="copyright">
 			<p align="center">Copyright &copy; 2021 - 2022 BBTADemo.com</p>
 		</div>
 	</footer>
@@ -177,7 +166,7 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
   const customPlugin = CXBus.registerPlugin('Custom');
 </script>
 
-<button type="button" id="chat-button" onclick="customPlugin.command('WebChat.open', getAdvancedConfig());">Lets Chat</button>
+<button type="button" id="chat-button" onclick="customPlugin.command('WebChat.open', getAdvancedConfig());">Chat Now</button>
 
 
 </body>
