@@ -1,17 +1,10 @@
-## Welcome to My Demo Site
+## Welcome to BlackBox Demo Site
 
 
-### Markdown
+### _Genesys Cloud CX_
+Cloud based platform to provide Contact Center Capabilities.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
+### **Avaya Aura**
 - Bulleted
 - List
 
