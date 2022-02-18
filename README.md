@@ -1,4 +1,4 @@
-## Welcome to BlackBox Demo Site
+## Welcome to Metlife Demo Site
 
 
 ### _Genesys Cloud CX_
@@ -159,7 +159,7 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
   const customPlugin = CXBus.registerPlugin('Custom');
 </script>
 
-<button type="button" id="chat-button" onclick="customPlugin.command('WebChat.open', getAdvancedConfig());">Chat Now</button>
+<button type="button" id="chat-button" onclick="customPlugin.command('WebChat.open', getAdvancedConfig());">Chat with Metlife</button>
 
 
 </body>
