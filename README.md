@@ -11,7 +11,7 @@
 	</header>
 	<div class="aside-left">
 		<p align="center">
-			_<h3>Chisholm Information_</h3>_
+			<h3>Chisholm Information</h3>
 		</p>
 	</div>
 	<main>
