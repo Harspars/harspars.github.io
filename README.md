@@ -146,12 +146,14 @@
             "label": "Student Support",
             "value": "No"
           }
-		<label for="Student">Type of Student:</label>
+	{	
+	<label for="Student">Type of Student:</label>
 
 		<select name="Student" id="Student">
   		<option value="Prospective Student">Prospective Student</option>
   		<option value="Student Support">Student Support</option>
 		</select>
+	}
         ]
       }
     };
