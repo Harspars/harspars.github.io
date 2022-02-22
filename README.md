@@ -42,7 +42,7 @@
         "transport": {
           "type": "purecloud-v2-sockets",
           "dataURL": "https://api.mypurecloud.com.au",
-          "deploymentKey": "99897707-60b8-4527-883d-afa00c14bd49",
+          "deploymentKey": "22669f3d-ddb6-4f2a-b768-664090350ba2",
           "orgGuid": "99d21775-62de-44cb-a90d-6d7010d44524",
           "interactionData": {
             "routing": {
@@ -53,15 +53,15 @@
           }
         },
         "userData": {
-          "addressStreet": "",
-          "addressCity": "",
-          "addressPostalCode": "",
-          "addressState": "",
-          "phoneNumber": "",
-          "customField1Label": "",
-          "customField1": "",
-          "customField2Label": "",
-          "customField2": "",
+          "addressStreet": "9 Mehi Turnpike",
+          "addressCity": "Hokuka",
+          "addressPostalCode": "50429",
+          "addressState": "MA",
+          "phoneNumber": "(928) 971-3840",
+          "customField1Label": "Prospective Student",
+          "customField1": "Yes",
+          "customField2Label": "Student Support",
+          "customField2": "No",
           "customField3Label": "",
           "customField3": ""
         }
@@ -73,9 +73,9 @@
     return {
       "form": {
         "autoSubmit": false,
-        "firstname": "",
-        "lastname": "",
-        "email": "",
+        "firstname": "Charlotte",
+        "lastname": "Coli",
+        "email": "de@bugfino.gy",
         "subject": ""
       },
       "formJSON": {
@@ -108,8 +108,8 @@
             "maxlength": "100",
             "placeholder": "Optional",
             "label": "Subject"
-          }
-	          {
+          },
+          {
             "id": "cx_webchat_form_prospective_student",
             "name": "ProspectiveStudent",
             "maxlength": "100",
@@ -133,8 +133,7 @@
   const customPlugin = CXBus.registerPlugin('Custom');
 </script>
 
-<button type="button" id="chat-button" onclick="customPlugin.command('WebChat.open', getAdvancedConfig());">CHAT WITH ONE OF OUR TEAM NOW</button>
-
+<button type="button" id="chat-button" onclick="customPlugin.command('WebChat.open', getAdvancedConfig());">Start Chat</button>
 
 </body>
 </html>
