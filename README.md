@@ -1,9 +1,6 @@
 ## **Welcome to Chisholm Demo Site**
 
 [Link](https://www.chisholm.edu.au/) and ![Image](Chisholm.jpg)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
  <html>
  <head>
@@ -13,7 +10,7 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
 		<!-- Stylesheets -->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		
-		<title>HOME | BBTADemo.com</title>
+		<title>HOME</title>
 </head>
 <body>
 <script type="text/javascript" charset="utf-8">
@@ -31,17 +28,7 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
   });
 </script>
 	<header>
-		<div class="topnav" id="myTopnav">
-			<p align="center">
-				<a href="#home" class="active">Home</a>
-				<a href="#news">News</a>
-				<a href="#contact">Contact</a>
-				<a href="#about">About</a>
-				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-					<i class="fa fa-bars"></i>
-				</a>
-			</p>
-		</div>
+		
 	</header>
 	<div class="aside-left">
 		<p align="center">
@@ -143,6 +130,28 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
             "placeholder": "Optional",
             "label": "Subject"
           }
+	          {
+            "id": "cx_webchat_form_prospective_student",
+            "name": "ProspectiveStudent",
+            "maxlength": "100",
+            "placeholder": "Custom data placeholder",
+            "label": "Prospective Student",
+            "value": "Yes"
+          },
+          {
+            "id": "cx_webchat_form_student_support",
+            "name": "StudentSupport",
+            "maxlength": "100",
+            "placeholder": "Custom data placeholder",
+            "label": "Student Support",
+            "value": "No"
+          }
+		<label for="Student">Type of Student:</label>
+
+		<select name="Student" id="Student">
+  		<option value="Prospective Student">Prospective Student</option>
+  		<option value="Student Support">Student Support</option>
+		</select>
         ]
       }
     };
