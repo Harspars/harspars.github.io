@@ -45,20 +45,25 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
 	</header>
 	<div class="aside-left">
 		<p align="center">
-			<h3>BLACKBOX AUSTRALIA DEMO</h3>
+			<h3>Chisholm Information</h3>
 		</p>
 	</div>
 	<main>
-		<h1>What would you like to buy</h1>
-		<p>We provide several service like Portfolio Management, Insurance and Finance Options</p>
+		<h1>On campus or in the workplace course enquiries</h1>
+		<p>Our enquiry hubs will operate remotely from 10 January 2022. 
+
+		   Phone:  1300 244 746
+		   Phone lines open Monday to Friday 8.30am - 5.30pm.
+
+		   Email: enquiries@chisholm.edu.au</p>
 	</main>
 	<aside>
-		<h2>Our Offerings</h2>
-		<h4>We provide hosted and Cloud Solutions for UCaaS and CCaaS</h4>
+		<h2>Apprenticeship Hub</h2>
+		<h4>The Apprenticeship Hub is located in Building A, Dandenong. Entry is via the Student Hub.</h4>
 	</aside>
 	<footer>
 			<div class="copyright">
-			<p align="center">Copyright &copy; 2021 - 2022 BBTADemo.com</p>
+			<p align="center">Copyright &copy; Chisholm Institute 2022</p>
 		</div>
 	</footer>
 
@@ -146,7 +151,7 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
   const customPlugin = CXBus.registerPlugin('Custom');
 </script>
 
-<button type="button" id="chat-button" onclick="customPlugin.command('WebChat.open', getAdvancedConfig());">Chat with Metlife</button>
+<button type="button" id="chat-button" onclick="customPlugin.command('WebChat.open', getAdvancedConfig());">Chat WITH ONE OF OUR TEAM NOW</button>
 
 
 </body>
