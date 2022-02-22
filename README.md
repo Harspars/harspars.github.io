@@ -11,11 +11,11 @@
 	</header>
 	<div class="aside-left">
 		<p align="center">
-			<h3>_Chisholm Information_</h3>
+			_<h3>Chisholm Information_</h3>_
 		</p>
 	</div>
 	<main>
-		<h1>**On campus or in the workplace course enquiries**</h1>
+		<h1>On campus or in the workplace course enquiries</h1>
 		<p>Our enquiry hubs will operate remotely from 10 January 2022. 
 
 		   Phone:  1300 244 746
