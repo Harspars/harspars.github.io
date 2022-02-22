@@ -3,30 +3,9 @@
 [Link](https://www.chisholm.edu.au/) and ![Image](Chisholm.jpg)
 
  <html>
- <head>
-	    <!-- Metas -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
-		<!-- Stylesheets -->
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		
-		<title>HOME</title>
-</head>
+
 <body>
-<script type="text/javascript" charset="utf-8">
-  (function (g, e, n, es, ys) {
-    g['_genesysJs'] = e;
-    g[e] = g[e] || function () {
-      (g[e].q = g[e].q || []).push(arguments)
-    };
-    g[e].t = 1 * new Date();
-    g[e].c = es;
-    ys = document.createElement('script'); ys.async = 1; ys.src = n; ys.charset = 'utf-8'; document.head.appendChild(ys);
-  })(window, 'Genesys', 'https://apps.mypurecloud.com.au/genesys-bootstrap/genesys.min.js', {
-    environment: 'apse2',
-    deploymentId: '014fd7be-96a4-482b-8172-a642689661a8'
-  });
-</script>
+
 	<header>
 		
 	</header>
@@ -162,7 +141,7 @@
   const customPlugin = CXBus.registerPlugin('Custom');
 </script>
 
-<button type="button" id="chat-button" onclick="customPlugin.command('WebChat.open', getAdvancedConfig());">Chat WITH ONE OF OUR TEAM NOW</button>
+<button type="button" id="chat-button" onclick="customPlugin.command('WebChat.open', getAdvancedConfig());">CHAT WITH ONE OF OUR TEAM NOW</button>
 
 
 </body>
