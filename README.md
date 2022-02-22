@@ -33,7 +33,7 @@
 		</div>
 	</footer>
 
-<script src="https://apps.mypurecloud.com.au/widgets/9.0/cxbus.min.js" onload="javascript:CXBus.configure({debug:false,pluginsPath:'https://apps.mypurecloud.com.au/widgets/9.0/plugins/'}); CXBus.loadPlugin('widgets-core');"></script>
+	<script src="https://apps.mypurecloud.com.au/widgets/9.0/cxbus.min.js" onload="javascript:CXBus.configure({debug:false,pluginsPath:'https://apps.mypurecloud.com.au/widgets/9.0/plugins/'}); CXBus.loadPlugin('widgets-core');"></script>
 
 <script>
   window._genesys = {
@@ -47,17 +47,17 @@
           "interactionData": {
             "routing": {
               "targetType": "QUEUE",
-              "targetAddress": "Demo Queue",
+              "targetAddress": "General Enquiry",
               "priority": 2
             }
           }
         },
         "userData": {
-          "addressStreet": "9 Mehi Turnpike",
-          "addressCity": "Hokuka",
-          "addressPostalCode": "50429",
-          "addressState": "MA",
-          "phoneNumber": "(928) 971-3840",
+          "addressStreet": "",
+          "addressCity": "",
+          "addressPostalCode": "",
+          "addressState": "",
+          "phoneNumber": "",
           "customField1Label": "Prospective Student",
           "customField1": "Yes",
           "customField2Label": "Student Support",
@@ -73,9 +73,9 @@
     return {
       "form": {
         "autoSubmit": false,
-        "firstname": "Charlotte",
-        "lastname": "Coli",
-        "email": "de@bugfino.gy",
+        "firstname": "",
+        "lastname": "",
+        "email": "",
         "subject": ""
       },
       "formJSON": {
@@ -123,7 +123,7 @@
             "maxlength": "100",
             "placeholder": "Custom data placeholder",
             "label": "Student Support",
-            "value": "No"
+            "value": "Yes"
           }
         ]
       }
@@ -133,7 +133,7 @@
   const customPlugin = CXBus.registerPlugin('Custom');
 </script>
 
-<button type="button" id="chat-button" onclick="customPlugin.command('WebChat.open', getAdvancedConfig());">Start Chat</button>
+<button type="button" id="chat-button" onclick="customPlugin.command('WebChat.open', getAdvancedConfig());">CHAT WITH OUR TEAM</button>
 
 </body>
 </html>
